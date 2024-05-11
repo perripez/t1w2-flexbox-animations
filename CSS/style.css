@@ -1,13 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 * {
-    color: black;
+    color: #FFF8F0;
+    font-family: "quicksand";
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color:#002E2C;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    /* Text align is horizontal */
     text-align: center;
+    /* Align items is vertical */
     align-items: center;
+}
 
+header {
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal */
+    text-align: center;
+    /* Align items is vertical */
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-color: #C7EF00;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    border-radius: 50%;
+}
+
+.logo p {
+    color:#FFF8F0;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
