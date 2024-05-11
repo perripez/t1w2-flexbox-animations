@@ -54,15 +54,17 @@ nav a {
 }
 
 nav a:hover {
-    color: #727072;
-    font-size: 1.15rem;
+    color: #83781B;
+    animation: spin 1s cubic-bezier(0.4, 0, 0.2, 1) .25s;
 }
+
 
 nav{
     background-color:#C7EF00;
     width: 100vw;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    
 }
 
 .training_option {
@@ -70,6 +72,7 @@ nav{
     background-color: #C7EF00;
     padding: 1rem;
     border-radius: 5%;
+
 }
 
 .training_option img{
@@ -89,6 +92,12 @@ nav{
         gap: 25px;
         justify-content: space-around;
     }
+
+    @keyframes spin {
+        0%  {-webkit-transform: rotate(0deg);}
+        100% {-webkit-transform: rotate(360deg);} 
+    }
+
 
     .training_option img{
         width: 25dvw;
