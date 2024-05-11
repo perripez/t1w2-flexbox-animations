@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:#002E2C;
+    background-color:#0D1B1E;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ header {
 }
 
 .logo p {
-    color:#FFF8F0;
+    color:#0D1B1E;
     font-weight: 600;
     font-size: 1rem;
 }
@@ -47,4 +47,13 @@ nav a {
     padding-right: 2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    color:#0D1B1E;
+    font-weight:700;
+}
+
+nav{
+    background-color:#C7EF00;
+    width: 100vw;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
