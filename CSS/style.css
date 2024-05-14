@@ -34,6 +34,7 @@ header {
     text-align:center;
     align-items:center;
     border-radius: 50%;
+   
 }
 
 .logo p {
@@ -51,11 +52,15 @@ nav a {
     color:#0D1B1E;
     font-weight:700;
     font-size: 1rem;
+
+    
 }
 
 nav a:hover {
     color: #83781B;
-    animation: spin 1s cubic-bezier(0.4, 0, 0.2, 1) .25s;
+    display: inline-block;
+    animation: spin 3s infinite linear;
+    
 }
 
 
